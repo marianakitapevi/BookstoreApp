@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.899"
+        app:layout_constraintVertical_bias="0.893"
         app:strokeColor="#000000"
         app:strokeWidth="1dp" />
 
@@ -75,11 +75,11 @@
         android:text="KAYIT OL"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/kaydet_button"
+        app:layout_constraintBottom_toBottomOf="@+id/kaydet_butonu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
@@ -105,12 +105,12 @@
         android:hint="Şifre Tekrar:"
         android:inputType="textPassword"
         android:textColorHint="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/kaydet_button"
+        app:layout_constraintBottom_toBottomOf="@+id/kaydet_butonu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.008" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
@@ -121,11 +121,11 @@
         android:inputType="textPersonName"
         android:text="Kullanıcı Adı:"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/kaydet_button"
+        app:layout_constraintBottom_toBottomOf="@+id/kaydet_butonu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
