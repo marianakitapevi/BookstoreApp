@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.049" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/kategori_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/ic_menu_compass"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.984" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/oneriler_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/btn_star"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.309" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/yazarlar_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/ic_menu_edit"
@@ -127,7 +127,7 @@
         app:layout_constraintVertical_bias="0.313" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ozet_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/ic_dialog_dialer"
@@ -139,7 +139,7 @@
         app:layout_constraintVertical_bias="0.427" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/blog_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/sym_action_chat"
@@ -163,7 +163,7 @@
         app:layout_constraintVertical_bias="0.722" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/yayinevi_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/ic_input_get"
@@ -203,7 +203,7 @@
         app:layout_constraintVertical_bias="0.588" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/sozler_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@android:drawable/ic_menu_info_details"
@@ -243,7 +243,7 @@
         app:layout_constraintVertical_bias="0.586" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/dergi_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@drawable/dergi"
@@ -255,7 +255,7 @@
         app:layout_constraintVertical_bias="0.135" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/kitap_git"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:src="@drawable/kitap"
