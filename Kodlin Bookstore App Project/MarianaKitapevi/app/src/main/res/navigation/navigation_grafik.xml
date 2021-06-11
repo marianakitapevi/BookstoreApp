@@ -9,7 +9,41 @@
         android:id="@+id/anaSayfaFragment"
         android:name="com.legend.marianakitapevi.AnaSayfaFragment"
         android:label="fragment_ana_sayfa"
-        tools:layout="@layout/fragment_ana_sayfa" />
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_kitaplarFragment"
+            app:destination="@id/kitaplarFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_dergilerFragment"
+            app:destination="@id/dergilerFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_blogFragment"
+            app:destination="@id/blogFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_yayinEviFragment"
+            app:destination="@id/yayinEviFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_yazarlarFragment"
+            app:destination="@id/yazarlarFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_kategorilerFragment"
+            app:destination="@id/kategorilerFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_ozetlerFragment"
+            app:destination="@id/ozetlerFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_sozlerFragment"
+            app:destination="@id/sozlerFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_duyuruFragment"
+            app:destination="@id/duyuruFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_onerilerFragment"
+            app:destination="@id/onerilerFragment" />
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_notAlFragment"
+            app:destination="@id/notAlFragment" />
+    </fragment>
     <fragment
         android:id="@+id/kategorilerFragment"
         android:name="com.legend.marianakitapevi.KategorilerFragment"
@@ -69,12 +103,20 @@
         android:id="@+id/kayitOlFragment"
         android:name="com.legend.marianakitapevi.KayitOlFragment"
         android:label="fragment_kayit_ol"
-        tools:layout="@layout/fragment_kayit_ol" />
+        tools:layout="@layout/fragment_kayit_ol" >
+        <action
+            android:id="@+id/action_kayitOlFragment_to_acilisFragment"
+            app:destination="@id/acilisFragment" />
+    </fragment>
     <fragment
         android:id="@+id/oturumAcFragment"
         android:name="com.legend.marianakitapevi.OturumAcFragment"
         android:label="fragment_oturum_ac"
-        tools:layout="@layout/fragment_oturum_ac" />
+        tools:layout="@layout/fragment_oturum_ac" >
+        <action
+            android:id="@+id/action_oturumAcFragment_to_anaSayfaFragment"
+            app:destination="@id/anaSayfaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/acilisFragment"
         android:name="com.legend.marianakitapevi.AcilisFragment"
